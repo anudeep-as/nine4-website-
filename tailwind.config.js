@@ -1,9 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: ["./**/*.html"], // ✅ Add comma here
   theme: {
     extend: {},
   },
   plugins: [],
 }
-
